@@ -1,4 +1,4 @@
-# Nexus Resilience AI
+# Nexus Resilience AI 
 
 > **Predict. Understand. Act. Before Risk Becomes Loss.**
 
