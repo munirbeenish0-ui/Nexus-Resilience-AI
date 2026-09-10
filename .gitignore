@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Credentials and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+service-account*.json
+*-service-account*.json
+
+# Google Cloud
+.gcloud/
+.firebase/
+.firebaserc
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs / temporary files
+*.log
+*.tmp
+*.temp
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local data / generated artifacts
+*.sqlite
+*.db
+
+# Secrets and local configuration
+secrets/
+credentials/
+
+# Google ADK local runtime data
+.adk/
+**/.adk/
+
+# Local development backups and build logs
+*_backup.py
+*_FINAL_WORKING.py
+*_before_*.py
+build_log.txt
+
+*_working_mvp.py
